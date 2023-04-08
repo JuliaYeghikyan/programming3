@@ -16,7 +16,7 @@ class LivingCreature{constructor(x,y){
     chooseCell(char){
         let found = []
 
-
+//dffsf
         for(let i in this.directions){
                          let x =   this.directions[i][0]
                          let y =   this.directions[i][1]
@@ -31,3 +31,5 @@ class LivingCreature{constructor(x,y){
         return found
 
    }
+
+}
